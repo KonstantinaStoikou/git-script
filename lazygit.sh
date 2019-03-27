@@ -8,8 +8,8 @@ echo $'\n'
 echo -e ${BLUE}Type commit message:${RESET}
 read message
 
-# git add .
-# git commit -m "$message"
+git add .
+git commit -m "$message"
 
 echo $'\n'
 echo -e ${BLUE}Do you want to push to master "(y/n):"${RESET}
